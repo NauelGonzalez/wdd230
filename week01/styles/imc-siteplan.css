@@ -197,3 +197,11 @@ nav a:hover {
   );
   transform: rotate(-90deg);
 }
+
+#paragraph-font {
+  font-family: var(--heading-font);
+}
+
+#heading-font {
+  font-family: var(--paragraph-font);
+}
