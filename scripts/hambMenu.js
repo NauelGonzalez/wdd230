@@ -6,14 +6,17 @@ hamButton.addEventListener("click", () => {
   hamButton.classList.toggle("open");
 });
 
-var li_list = document.querySelectorAll("li a");
+const darkMode = document.querySelector("#dark-mode");
+const btnImg = darkMode.querySelector("img");
 
-li_list.forEach(function (box) {
-  box.addEventListener("click", function () {
-    li_list.forEach(function (remove_li) {
-      remove_li.classList.remove("active");
-    });
+let dark = false;
 
-    this.classList.add("active");
-  });
+darkMode.addEventListener("click", () => {
+  if (dark) {
+    btnImg.src = "images/dark.png";
+  } else {
+    btnImg.src = "images/light-inversed.png";
+  }
+  dark = !dark;
+  document.body.classList.toggle("dark-theme");
 });
