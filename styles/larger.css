@@ -38,4 +38,10 @@
     display: block;
     flex: 1 1 100%;
   }
+
+  #dark-mode {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
