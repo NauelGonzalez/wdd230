@@ -9,8 +9,8 @@
   --dark-green: #590303;
   --white: #fff;
   --black: #000;
-  --max-width: 40rem;
-  --max-width-nav: 39rem;
+  --max-width: 800px;
+  --max-width-nav: 767px;
   --light-50percent: ;
 }
 #join {
@@ -35,7 +35,6 @@ body {
   justify-content: center;
   background-color: var(--white);
   color: var(--black);
-  width: var(--max-width);
 }
 
 /* mobile **************************/
