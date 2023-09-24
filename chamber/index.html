@@ -9,7 +9,7 @@
     <meta name="description"
         content="Chamber of Commerce - Web Frontend Development course. Created by Nauel Gonzalez as a Course Assignment Portal">
     <meta name="author" content="Nauel Gonzalez">
-    <link rel="icon" href="imc.ico">
+    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/normalize.css">
@@ -24,8 +24,8 @@
 
 <body>
     <header>
-        <img src="images/profile.PNG" alt="images/profile2.JPG" class="profile-pic">
-        <h1>Nauel Gonzalez</h1>
+        <img src="images/logo.PNG" alt="Chamber Logo" class="logo">
+        <h1>Mars Chamber of Commerce</h1>
         <button id="dark-mode">
             <img src="images/dark.png" alt="Dark Mode">
         </button>
@@ -34,13 +34,52 @@
     <nav class="navigation">
 
         <span><a href="">Home</a></span>
-        <span><a href="">Chamber</a></span>
-        <span><a href="week01/chamber-site-plan.html">Site Plan</a></span>
-        <span><a href="">Form</a></span>
+        <span><a href="">Discover</a></span>
+        <span><a href="">Directory</a></span>
+        <span><a href="">Join</a></span>
 
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
+        <div id="hero-grid">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images -->
+                <div class="mySlides fade">
+                    <img class="hero-img" src="images/slide1.webp" alt="Banner image">
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="hero-img" src="images/slide2.jpg" alt="Banner image">
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="hero-img" src="images/slide1.webp" alt="Banner image">
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="hero-img" src="images/slide2.jpg" alt="Banner image">
+                </div>
+            </div>
+
+            <div id="hero-title">
+                <h1>MCC</h1>
+            </div>
+            <div id="hero-text">
+                <h4>Prospering Together on the Red Frontier </h4>
+            </div>
+
+        </div>
+
+        <div id="dot">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+
         <div id="info-box">
             <section class="card">
                 <h3>Learning Activities</h3>
@@ -74,6 +113,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hambMenu.js"></script>
+    <script src="scripts/slide.js"></script>
 </body>
 
 </html>
