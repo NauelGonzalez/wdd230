@@ -9,17 +9,17 @@
   --dark-green: #590303;
   --white: #fff;
   --black: #000;
-  --max-width: 800px;
-  --max-width-nav: 767px;
-  --light-50percent: ;
+  --max-width: 40rem;
+  --max-width-nav: 39rem;
 }
+
 #join {
   text-decoration: none;
-  color: var(--white);
+  color: #fff;
 }
 #join:hover {
   text-decoration: underline;
-  color: var(--white);
+  color: #fff;
 }
 
 .dark-theme {
@@ -95,7 +95,7 @@ section h3 {
 }
 
 .event-card {
-  grid-column: 1/3;
+  grid-column: 1 / -1;
 }
 
 .event-card p {
@@ -103,7 +103,7 @@ section h3 {
 }
 
 .weather-card {
-  grid-column: 1/3;
+  grid-column: 1 / -1;
   border: 2px solid var(--dark-green);
   border-radius: 10px;
   margin: 1rem;
@@ -115,6 +115,8 @@ section h3 {
   margin: 1rem;
   box-shadow: 1px 1px 20px var(--dark-green);
   border-style: dotted;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .company-name,
@@ -141,11 +143,12 @@ section div {
 
 #info-box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
   text-align: center;
-  max-width: 100%;
+  align-items: stretch;
 }
 
 main h2 {
@@ -270,7 +273,7 @@ header h1 {
   margin-bottom: 30px;
 }
 #dot {
-  text-align: "center";
+  text-align: center;
 }
 
 .active,
