@@ -200,14 +200,13 @@ header h1 {
 }
 
 #hero-title {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  margin-top: 70px;
-  margin-left: 50px;
+  grid-column: 1/4;
+  grid-row: 3/4;
   font-size: 3em;
   color: white;
   font-family: "Dancing Script", "Leckerli One";
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #4b0082;
+  background-color: rgba(148, 91, 71, 0.6);
 }
 #hero-text {
   grid-column: 2/4;
@@ -229,6 +228,7 @@ header h1 {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-top: 30px;
 }
 #dot {
   text-align: "center";
