@@ -5,12 +5,12 @@
 }
 
 :root {
-  --light-green: #30d61a;
+  --light-green: #ffc88a;
   --dark-green: #590303;
   --white: #fff;
   --black: #000;
-  --max-width: 60rem;
-  --max-width-nav: 59rem;
+  --max-width: 40rem;
+  --max-width-nav: 39rem;
   --light-50percent: ;
 }
 #join {

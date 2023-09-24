@@ -1,5 +1,10 @@
 /* Larger Views ******************************/
 @media (min-width: 800px) {
+  :root {
+    --max-width: 60rem;
+    --max-width-nav: 59rem;
+  }
+
   nav ul {
     display: flex;
   }
