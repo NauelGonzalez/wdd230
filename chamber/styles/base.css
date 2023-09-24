@@ -5,18 +5,26 @@
 }
 
 :root {
-  --light-green: #f3ccc9;
-  --dark-green: #062008;
+  --light-green: #ffc88a;
+  --dark-green: #590303;
   --white: #fff;
   --black: #000;
   --max-width: 60rem;
   --max-width-nav: 59rem;
   --light-50percent: ;
 }
+#join {
+  text-decoration: none;
+  color: var(--white);
+}
+#join:hover {
+  text-decoration: underline;
+  color: var(--white);
+}
 
 .dark-theme {
-  --light-green: #062008;
-  --dark-green: #f3ccc9;
+  --light-green: #590303;
+  --dark-green: #ffc88a;
   --white: #000;
   --black: #fff;
 }
@@ -112,6 +120,7 @@ section h3 {
 .company-name,
 h4 {
   background-color: rgba(148, 91, 71, 0.4);
+  padding: 0.7rem;
 }
 .contact-info {
   font-size: 1.1em;
