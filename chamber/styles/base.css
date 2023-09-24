@@ -5,7 +5,7 @@
 }
 
 :root {
-  --light-green: #ffc88a;
+  --light-green: #30d61a;
   --dark-green: #590303;
   --white: #fff;
   --black: #000;
@@ -35,7 +35,7 @@ body {
   justify-content: center;
   background-color: var(--white);
   color: var(--black);
-  width: 60rem;
+  width: var(--max-width);
 }
 
 /* mobile **************************/
