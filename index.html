@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <img src="images/profile.PNG" alt="images/profile2.JPG" class="profile-pic">
+        <img src="images/profile.webp" alt="images/profile2.JPG" class="profile-pic">
         <h1>Nauel Gonzalez</h1>
         <button id="dark-mode">
             <img src="images/dark.png" alt="Dark Mode">
@@ -41,6 +41,16 @@
 
     </nav>
     <main>
+        <div class="temple-pic">
+            <picture>
+                <source srcset="images/temple-small.webp" media="(max-width: 400px)">
+                <source srcset="images/temple-medium.webp" media="(max-width: 800px)">
+                <img src="images/temple-large.jpg" alt="temple pics" width="800" height="400">
+            </picture>
+            <div class="temple-label">
+                <label>Alabang Philippines Temple</label>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <div id="info-box">
             <section class="card">
@@ -62,11 +72,17 @@
                 <h3>Information</h3>
                 <div class="information">Montevideo, Uruguay</div>
                 <div class="information">12° - Windy</div>
-                <div class="information">Page visits - 0</div>
+                <div class="information"><span class="visits">Visits</span></div>
             </section>
         </div>
-
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24367.533691202832!2d-65.40966858584088!3d-24.78670130988571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2suy!4v1695870093027!5m2!1ses-419!2suy"
+                width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
+
     <footer>
         <p id="date">
             © YEAR | Nauel Gonzalez | Uruguay
@@ -76,6 +92,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hambMenu.js"></script>
+    <script src="scripts/visitCounter.js"></script>
 </body>
 
 </html>

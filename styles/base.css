@@ -183,3 +183,36 @@ header h1 {
   border-radius: 5%;
   max-height: 4rem;
 }
+
+.temple-pic {
+  margin: 10px auto;
+  position: relative;
+  border: 1px solid var(--dark-green);
+  height: auto;
+}
+
+.temple-pic img {
+  max-width: 100%;
+  height: auto;
+}
+
+.temple-label {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: rgba(192, 207, 165, 0.5);
+  border: 1px solid var(--black);
+  padding: 1.5rem;
+  font-size: 1rem;
+}
+.temple-pic label {
+  color: #000;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.map iframe {
+  max-width: 100%;
+  height: auto;
+}

@@ -59,7 +59,8 @@ footer {
   flex-direction: column;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 2rem;
 }
 
