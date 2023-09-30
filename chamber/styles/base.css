@@ -334,8 +334,6 @@ header h1 {
 .discover-column1,
 .discover-column2 {
   position: relative;
-  justify-content: top;
-  align-items: top;
   top: 0px;
   left: 0px;
 }
