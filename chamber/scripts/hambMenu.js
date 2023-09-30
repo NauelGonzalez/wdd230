@@ -13,9 +13,9 @@ let dark = false;
 
 darkMode.addEventListener("click", () => {
   if (dark) {
-    btnImg.src = "images/dark.png";
+    btnImg.src = "images/dark.webp";
   } else {
-    btnImg.src = "images/light-inversed.png";
+    btnImg.src = "images/light-inversed.webp";
   }
   dark = !dark;
   document.body.classList.toggle("dark-theme");
