@@ -11,6 +11,7 @@
   --black: #000;
   --max-width: 40rem;
   --max-width-nav: 39rem;
+  --white-transparency: rgba(255, 255, 255, 0.6);
 }
 
 #join {
@@ -27,6 +28,7 @@
   --dark-green: #ffc88a;
   --white: #000;
   --black: #fff;
+  --white-transparency: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -314,4 +316,39 @@ header h1 {
 .logo {
   max-width: 10rem;
   padding-left: 0px;
+}
+
+.discover-main-grid {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.discover-main-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.discover-column1,
+.discover-column2 {
+  position: relative;
+  justify-content: top;
+  align-items: top;
+  top: 0px;
+  left: 0px;
+}
+
+.caption {
+  position: absolute;
+  font-style: italic;
+  color: var(--black);
+  top: 10px;
+  left: 10px;
+  background-color: var(--white-transparency);
+  padding: 5px;
+}
+.dicover-image-container {
+  height: auto;
 }

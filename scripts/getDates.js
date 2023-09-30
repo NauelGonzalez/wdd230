@@ -1,5 +1,5 @@
 document.getElementById("date").textContent =
-  "© " + new Date().getFullYear() + " | Nauel Gonzalez | Uruguay";
+  "© " + new Date().getFullYear() + " | Nauel Gonzalez | WDD 230 | Uruguay";
 
 const lastModified = new Date(document.lastModified);
 const format = {

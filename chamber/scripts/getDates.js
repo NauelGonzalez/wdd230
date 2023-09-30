@@ -1,7 +1,7 @@
 document.getElementById("date").textContent =
   "© " +
   new Date().getFullYear() +
-  " | Nauel Gonzalez | Contact: contact@mcc.mars";
+  " | Nauel Gonzalez | WDD 230 | Contact: contact@mcc.mars";
 
 const lastModified = new Date(document.lastModified);
 const format = {
