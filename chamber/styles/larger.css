@@ -84,4 +84,10 @@
     align-items: center;
     align-self: flex-start;
   }
+
+  .discover-column2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 20px var(--dark-green);
+    border-radius: 2%;
+  }
 }
