@@ -22,5 +22,5 @@ range.addEventListener("change", displayRatingValue);
 range.addEventListener("input", displayRatingValue);
 console.log(range.value);
 function displayRatingValue() {
-  rangevalue.textContent = range.value;
+  rangevalue.innerText = range.value;
 }
