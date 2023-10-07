@@ -90,7 +90,7 @@ form label.reg-form input:required:valid {
   }
 }
 
-.plan label:hover {
+.plan:hover {
   background-color: var(--light-green);
 }
 /*
@@ -98,14 +98,7 @@ form label.reg-form input:required:valid {
   visibility: hidden; 
 }
 /*I hope it is ok to hide the radio item :)*/
-/*
-.plan label:hover {
-  background-color: var(--light-green);
-}*/
 
-.plan label input:hover {
-  background-color: var(--light-green);
-}
 .plan label input#silver[type="radio"]:checked {
   background-color: red;
 }
@@ -123,6 +116,8 @@ form label.reg-form input:required:valid {
   border-radius: 5px;
   color: var(--dark-green);
   max-width: 20rem;
+  line-height: 2.5;
+  text-align: left;
 }
 .plan p {
   margin-top: 0.4rem;
