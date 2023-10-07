@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauel Gonzalez - IMC Chamber of Commerce</title>
+    <meta name="description"
+        content="Chamber of Commerce - Web Frontend Development course. Created by Nauel Gonzalez as a Course Assignment Portal">
+    <meta name="author" content="Nauel Gonzalez">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <meta property="og:title" content="Nauel Gonzalez - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nauelgonzalez.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://nauelgonzalez.github.io/wdd230/chamber/images/social-media-card.png">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Chamber Logo" class="logo">
+        <h1>Noachis Terra, Mars - Mars Chamber of Commerce</h1>
+        <button id="dark-mode">
+            <img src="images/dark.webp" alt="Dark Mode">
+        </button>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+
+        <span><a href="index.html">Home</a></span>
+        <span><a href="discover.html">Discover</a></span>
+        <span><a href="">Directory</a></span>
+        <span><a href="join.html">Join</a></span>
+
+    </nav>
+    <main>
+        <h2>Prospering Together on the Red Frontier</h2>
+
+        <form method="get" action="record.html" id="form">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="reg-form"> First Name *<input type="text" id="fname" name="fname" required></label>
+                <label class="reg-form"> Last Name *<input type="text" id="lname" name="lname" required></label>
+                <label class="reg-form"> Title or Position *<input type="title" id="title" name="title" required
+                        pattern="[A-Za-z ]{1,7}"
+                        title="Minimun 7 characters, letters, hyphens and spaces allowed only."></label>
+                <label class="reg-form"> Email*<input type="email" id="email" name="email" required
+                        pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Please enter a valid email address."></label>
+                <label class="reg-form"> Mobile *<input type="tel" id="phone" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business' Information</legend>
+                <label class="reg-form"> Business' name *<input type="text" id="org" name="org" required></label>
+
+                <div>Membership Level</div>
+
+                <label class="radio"><input type="radio" name="membership" value="intermediate"> Bronze</label>
+                <label class="radio"><input type="radio" name="membership" value="advanced"> Silver</label>
+                <label class="radio"><input type="radio" name="membership" value="advanced"> Gold</label>
+                <label class="reg-form">Business' description <textarea name="desc" id="desc" form="form"
+                        placeholder="Enter your description here..."></textarea></label>
+
+                <label class="reg-form"><input type="hidden" name="timestamp" id="timestamp"></label>
+                <input type="submit" value="Join Now!" class="submitBtn">
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p id="date">
+            © YEAR | Nauel Gonzalez WDD 230 | Contact: contact@mcc.mars
+        </p>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hambMenu.js"></script>
+</body>
+
+</html>

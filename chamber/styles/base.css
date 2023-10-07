@@ -12,6 +12,8 @@
   --max-width: 40rem;
   --max-width-nav: 39rem;
   --white-transparency: rgba(255, 255, 255, 0.6);
+  --ok-color: green;
+  --notok-color: red;
 }
 
 #join {
