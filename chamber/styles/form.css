@@ -29,6 +29,8 @@ form label.reg-form input {
   width: 100%;
   max-width: 20rem;
   background-color: rgba(204, 250, 210, 0.4);
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 form label.reg-form textarea {
@@ -86,4 +88,36 @@ form label.reg-form input:required:valid {
   75% {
     transform: translate(4px);
   }
+}
+
+.plan label {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: var(--dark-green);
+  max-width: 20rem;
+}
+
+.plan label:hover {
+  background-color: var(--light-green);
+}
+/*
+.plan input[type="radio"] {
+  visibility: hidden; 
+}
+/*I hope it is ok to hide the radio item :)*/
+.plan input[type="radio"]:checked {
+  background-color: red;
+}
+
+.plan-name {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.plan {
+  margin: 5px 0;
+}
+.plan p {
+  margin-top: 0.4rem;
 }

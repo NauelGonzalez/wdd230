@@ -58,17 +58,63 @@
             <fieldset>
                 <legend>Business' Information</legend>
                 <label class="reg-form"> Business' name *<input type="text" id="org" name="org" required></label>
+                <fieldset>
+                    <legend>Choose your plan</legend>
+                    <div class="plan">
+                        <label>
+                            <input type="radio" id="np" name="membership" value="np">
+                            <p class="plan-name"> Non-Profit Membership</p>
 
-                <div>Membership Level</div>
+                            <p><b>Cost:</b> $200 million per Martian year</p>
+                            <p><b>Benefits:</b> Support for non-profit organizations dedicated to Martian
+                                research and sustainability, networking with fellow Mars enthusiasts, access to
+                                exclusive Mars-themed events, and advocacy for your mission.</p>
+                        </label>
+                    </div>
+                    <div class="plan">
+                        <label>
+                            <input type="radio" id="bronze" name="membership" value="bronze">
+                            <p class="plan-name">Bronze Membership </p>
 
-                <label class="radio"><input type="radio" name="membership" value="intermediate"> Bronze</label>
-                <label class="radio"><input type="radio" name="membership" value="advanced"> Silver</label>
-                <label class="radio"><input type="radio" name="membership" value="advanced"> Gold</label>
+                            <p><b>Cost:</b> $500 million per Martian year</p>
+                            <p><b>Benefits:</b> Ideal for startups and small businesses on Mars, includes a
+                                premium directory listing, access to Martian market research, networking
+                                opportunities
+                                with local businesses, and discounts on workshops and training programs.</p>
+                        </label>
+                    </div>
+                    <div class="plan">
+                        <label for="silver">
+                            <input type="radio" id="silver" name="membership" value="silver">
+                            <p class="plan-name">Silver Membership </p>
+
+                            <p><b>Cost:</b> $1 billion per Martian year</p>
+                            <p><b>Benefits:</b> For businesses aiming for Martian growth, enjoy priority
+                                networking, featured directory listing, substantial workshop discounts, access to
+                                Mars
+                                marketing support, and inclusion in Martian business showcases.</p>
+                        </label>
+                    </div>
+                    <div class="plan">
+                        <label>
+                            <input type="radio" id="gold" name="membership" value="Gold">
+                            <p class="plan-name">Gold Membership</p>
+
+                            <p><b>Cost:</b> $2.5 billion per Martian year</p>
+                            <p><b>Benefits:</b> The pinnacle of MCC membership, gain VIP access to exclusive
+                                Martian networking events, complimentary workshops and training programs, dedicated
+                                Martian marketing support team, and priority sponsorship opportunities for Martian
+                                events and missions.</p>
+                        </label>
+                    </div>
+                </fieldset>
                 <label class="reg-form">Business' description <textarea name="desc" id="desc" form="form"
                         placeholder="Enter your description here..."></textarea></label>
 
                 <label class="reg-form"><input type="hidden" name="timestamp" id="timestamp"></label>
+
                 <input type="submit" value="Join Now!" class="submitBtn">
+
             </fieldset>
         </form>
 
