@@ -90,4 +90,27 @@
     box-shadow: 1px 1px 20px var(--dark-green);
     border-radius: 2%;
   }
+
+  /*------------------------- FORM -------------------------*/
+
+  form label.reg-form input {
+    min-width: 20em;
+    max-width: 40em;
+  }
+
+  form label.reg-form textarea {
+    min-width: 20em;
+    max-width: 40em;
+  }
+
+  form input.submitBtn {
+    min-width: 20em;
+    max-width: 40em;
+  }
+
+  .plan label {
+    margin: 5px 0;
+    min-width: 20em;
+    max-width: 40em;
+  }
 }

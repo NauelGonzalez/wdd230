@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/form.css">
 
     <meta property="og:title" content="Nauel Gonzalez - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
@@ -48,10 +47,11 @@
                 <label class="reg-form"> First Name *<input type="text" id="fname" name="fname" required></label>
                 <label class="reg-form"> Last Name *<input type="text" id="lname" name="lname" required></label>
                 <label class="reg-form"> Title or Position *<input type="text" id="title" name="title" required
-                        pattern="[A-Za-z ]{7,}"
+                        pattern="^[A-Za-z \-]{7,}$"
                         title="Minimun 7 characters, letters, hyphens and spaces allowed only."></label>
                 <label class="reg-form"> Email*<input type="email" id="email" name="email" required
-                        pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Please enter a valid email address."></label>
+                        pattern="(.)+@+([a-zA-Z]*).([a-zA-z]{2,4})+(.*)" placeholder="someone@mcc.com"
+                        title="Please enter a valid email address."></label>
                 <label class="reg-form"> Mobile *<input type="tel" id="phone" name="phone" required></label>
             </fieldset>
             <fieldset>
@@ -61,7 +61,7 @@
                     <legend>Choose your plan</legend>
                     <div class="plan">
 
-                        <input type="radio" id="np" name="membership" value="np">
+                        <input type="radio" id="np" name="membership" value="np" checked>
                         <label for="np">
                             <strong>Non-Profit Membership</strong>
                             <br>
