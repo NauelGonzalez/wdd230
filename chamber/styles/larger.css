@@ -113,4 +113,20 @@
     min-width: 20em;
     max-width: 40em;
   }
+  /*------------------------*/
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 10px;
+    align-items: center;
+    max-width: 50rem;
+    margin: auto;
+  }
+  .grid img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+    max-width: 15rem;
+    height: auto;
+  }
 }

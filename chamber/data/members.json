@@ -5,7 +5,7 @@
       "address": "101 Red Planet Street, Mars City",
       "phone": "+1234567890",
       "website": "http://www.marstechsolutions.com",
-      "image": "marstech_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/marstech.webp",
       "membership_level": "Gold",
       "slogan": "Providing cutting-edge technology solutions for Martian exploration."
     },
@@ -14,7 +14,7 @@
       "address": "456 Olympus Mons Boulevard, Olympus Mons",
       "phone": "+9876543210",
       "website": "http://www.reddomeconstruction.com",
-      "image": "reddome_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/red-dome-constructions.webp",
       "membership_level": "Silver",
       "slogan": "Leaders in Martian infrastructure development."
     },
@@ -23,7 +23,7 @@
       "address": "SpaceX Headquarters, Mars Base Alpha",
       "phone": "+5555555555",
       "website": "http://www.spacexmars.com",
-      "image": "spacex_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/spacex.webp",
       "membership_level": "Gold",
       "slogan": "Pioneering Mars colonization and interplanetary travel."
     },
@@ -32,7 +32,7 @@
       "address": "789 Green Oasis Avenue, Valles Marineris",
       "phone": "+1231231234",
       "website": "http://www.martianagricultureco.com",
-      "image": "agriculture_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/martian-agriculture.webp",
       "membership_level": "Non Profit",
       "slogan": "Sustainable farming for a greener Martian future."
     },
@@ -41,7 +41,7 @@
       "address": "222 Red Ore Way, Hellas Planitia",
       "phone": "+5556667777",
       "website": "http://www.marsminingcorp.com",
-      "image": "mining_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/mars-mining.webp",
       "membership_level": "Gold",
       "slogan": "Extracting valuable resources for Martian industry."
     },
@@ -50,7 +50,7 @@
       "address": "333 Martian Adventures Lane, Tharsis Ridge",
       "phone": "+9998887777",
       "website": "http://www.redplanettourism.com",
-      "image": "tourism_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/red-planet-tourism.webp",
       "membership_level": "Bronze",
       "slogan": "Creating unforgettable Martian experiences for tourists."
     },
@@ -59,7 +59,7 @@
       "address": "777 Gene Drive Avenue, Noctis Labyrinthus",
       "phone": "+7778889999",
       "website": "http://www.martianbiotech.com",
-      "image": "biotech_logo.png",
+      "image": "https://nauelgonzalez.github.io/wdd230/chamber/images/martian-biotech.webp",
       "membership_level": "Platinum",
       "slogan": "Revolutionizing healthcare with Martian biotechnology."
     }

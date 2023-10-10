@@ -489,18 +489,22 @@ input[type="radio"]:checked + label {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 10px;
   align-items: center;
+  max-width: 20rem;
 }
 
 .grid section {
   text-align: center;
+  margin: 10px;
 }
 
 .grid img {
   border: 1px solid #fff;
   box-shadow: 0 0 10px #333;
+  max-width: 20rem;
+  height: auto;
 }
 
 .grid section > * {
