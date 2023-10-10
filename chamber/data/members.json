@@ -1,0 +1,72 @@
+{
+  "members": [
+    {
+      "company_name": "MarsTech Solutions",
+      "address": "101 Red Planet Street, Mars City",
+      "phone": "+1234567890",
+      "website": "http://www.marstechsolutions.com",
+      "image": "marstech_logo.png",
+      "membership_level": "Gold",
+      "slogan": "Providing cutting-edge technology solutions for Martian exploration."
+    },
+    {
+      "company_name": "RedDome Construction",
+      "address": "456 Olympus Mons Boulevard, Olympus Mons",
+      "phone": "+9876543210",
+      "website": "http://www.reddomeconstruction.com",
+      "image": "reddome_logo.png",
+      "membership_level": "Silver",
+      "slogan": "Leaders in Martian infrastructure development."
+    },
+    {
+      "company_name": "SpaceX Mars Division",
+      "address": "SpaceX Headquarters, Mars Base Alpha",
+      "phone": "+5555555555",
+      "website": "http://www.spacexmars.com",
+      "image": "spacex_logo.png",
+      "membership_level": "Gold",
+      "slogan": "Pioneering Mars colonization and interplanetary travel."
+    },
+    {
+      "company_name": "Martian Agriculture Co.",
+      "address": "789 Green Oasis Avenue, Valles Marineris",
+      "phone": "+1231231234",
+      "website": "http://www.martianagricultureco.com",
+      "image": "agriculture_logo.png",
+      "membership_level": "Non Profit",
+      "slogan": "Sustainable farming for a greener Martian future."
+    },
+    {
+      "company_name": "Mars Mining Corporation",
+      "address": "222 Red Ore Way, Hellas Planitia",
+      "phone": "+5556667777",
+      "website": "http://www.marsminingcorp.com",
+      "image": "mining_logo.png",
+      "membership_level": "Gold",
+      "slogan": "Extracting valuable resources for Martian industry."
+    },
+    {
+      "company_name": "Red Planet Tourism",
+      "address": "333 Martian Adventures Lane, Tharsis Ridge",
+      "phone": "+9998887777",
+      "website": "http://www.redplanettourism.com",
+      "image": "tourism_logo.png",
+      "membership_level": "Bronze",
+      "slogan": "Creating unforgettable Martian experiences for tourists."
+    },
+    {
+      "company_name": "Martian BioTech Innovations",
+      "address": "777 Gene Drive Avenue, Noctis Labyrinthus",
+      "phone": "+7778889999",
+      "website": "http://www.martianbiotech.com",
+      "image": "biotech_logo.png",
+      "membership_level": "Platinum",
+      "slogan": "Revolutionizing healthcare with Martian biotechnology."
+    }
+  ],
+  "directory_info": {
+    "last_updated": "2023-10-10",
+    "total_members": 7,
+    "mission_statement": "The Mars Chamber of Commerce fosters economic growth and collaboration on the Red Planet."
+  }
+}
