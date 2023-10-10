@@ -55,8 +55,8 @@
         <div id="info-box">
             <section class="card">
                 <h3>Learning Activities</h3>
-                <ul>
-                    <li>Week 01: <a href="week01/holygrail.html"> Holy Grail </a> </li>
+                <ul id="links">
+                    <!--             <li>Week 01: <a href="week01/holygrail.html"> Holy Grail </a> </li>
                     <li>Week 02: <a href="week02/design.html"> Design </a> | <a
                             href="https://codepen.io/Nauel-Gonzalez/pen/NWeXRMY"> CodePen </a>
                         | <a href="week02/bom.html"> BOM </a></li>
@@ -71,13 +71,18 @@
                             </a> |<a href="week05/weather.html"> weather
                             </a> </li>
                     <li>Week 06:</li>
-
+-->
                 </ul>
             </section>
             <section class="card">
                 <h3>Information</h3>
                 <div class="information">Montevideo, Uruguay</div>
-                <div class="information">12° - Windy</div>
+                <div class="information" id="weather"><span id="current-temp"> temp here - weather</span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
                 <div class="information"><span class="visits">Visits</span></div>
             </section>
         </div>
@@ -99,6 +104,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hambMenu.js"></script>
     <script src="scripts/visitCounter.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
