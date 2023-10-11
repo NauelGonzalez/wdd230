@@ -134,7 +134,14 @@
     display: block;
     border: 1px solid #fff;
     box-shadow: 0 0 10px #333;
-    max-width: 25%;
+    max-width: 75%;
     height: auto;
+  }
+  .list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  }
+  .list .address {
+    display: block;
   }
 }

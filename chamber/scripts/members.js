@@ -35,7 +35,7 @@ function displayLinks(members) {
     p1.innerHTML = `<b>Membership:</b> ${member.membership_level} <b>`;
     p2.innerHTML = `<b>Phone:</b> ${member.phone}`;
     p3.innerHTML = `<b>Address:</b> ${member.address} `;
-    p3.setAttribute = ("id", "address");
+    p3.setAttribute("class", "address");
     section.appendChild(img);
     section.appendChild(a);
     section.appendChild(p1);
