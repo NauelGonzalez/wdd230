@@ -129,4 +129,12 @@
     max-width: 15rem;
     height: auto;
   }
+
+  .list section img {
+    display: block;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+    max-width: 25%;
+    height: auto;
+  }
 }
