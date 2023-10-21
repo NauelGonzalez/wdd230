@@ -17,6 +17,10 @@ async function getLinks() {
       filteredData.push(member);
       console.log(member);
     }
+    while (filteredData.length > 3) {
+      const randomIndex = Math.floor(Math.random() * filteredData.length);
+      filteredData.splice(randomIndex, 1);
+    }
   });
   displayLinks(filteredData);
 }
