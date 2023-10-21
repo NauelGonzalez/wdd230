@@ -12,5 +12,4 @@ if (dayOfWeek === 1 || dayOfWeek === 2 || dayOfWeek === 6) {
 
 bannerBtn.addEventListener("click", () => {
   bannerDiv.classList.add("hidden");
-  console.log("test");
 });
