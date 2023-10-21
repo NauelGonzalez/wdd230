@@ -29,9 +29,7 @@ async function apiFetch() {
       const weatherData = await weatherResponse.json();
       displayResults(weatherData);
     }
-  } catch (error) {
-    console.log(error);
-  }
+  } catch (error) {}
 
   try {
     const forecastResponse = await fetch(forecastURL);
@@ -39,9 +37,7 @@ async function apiFetch() {
       const forecastData = await forecastResponse.json();
       displayForecast(forecastData);
     }
-  } catch (error) {
-    console.log(error);
-  }
+  } catch (error) {}
 }
 
 function displayResults(weather_data) {
