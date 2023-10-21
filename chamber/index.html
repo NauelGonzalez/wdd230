@@ -40,10 +40,17 @@
 
     </nav>
     <main>
+
         <h2>Prospering Together on the Red Frontier</h2>
+
+        <div id="banner" class="hidden">
+            <button id="banner-close">❌</button>
+            <img class="hero-img" src="images/meet-greet.webp" alt="Banner image">
+        </div>
+
         <div id="hero-grid">
             <!-- Slideshow container -->
-            <div class="slideshow-container">
+            <div class="slideshow-container" id="slideshow-container">
 
                 <!-- Full-width images -->
                 <div class="mySlides fade">
@@ -51,15 +58,15 @@
                 </div>
 
                 <div class="mySlides fade">
-                    <img class="hero-img" src="images/slide2.jpg" alt="Banner image">
+                    <img class="hero-img" src="images/slide2.webp" alt="Banner image">
                 </div>
 
                 <div class="mySlides fade">
-                    <img class="hero-img" src="images/slide3.jpg" alt="Banner image">
+                    <img class="hero-img" src="images/slide3.webp" alt="Banner image">
                 </div>
 
                 <div class="mySlides fade">
-                    <img class="hero-img" src="images/slide4.jpg" alt="Banner image">
+                    <img class="hero-img" src="images/slide4.webp" alt="Banner image">
                 </div>
             </div>
 
@@ -115,6 +122,7 @@
         <p id="lastModified"></p>
 
     </footer>
+    <script src="scripts/addBanner.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hambMenu.js"></script>
     <script src="scripts/slide.js"></script>

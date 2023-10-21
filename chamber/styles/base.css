@@ -592,3 +592,28 @@ input[type="radio"]:checked + label {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
+#banner-close {
+  color: var(--black);
+  position: absolute;
+  font-size: 2rem;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  background-color: var(--light-green);
+  border-radius: 10%;
+}
+
+#banner-close:hover {
+  background-color: var(--dark-green);
+  border: 1px solid var(--white);
+}
+
+#banner {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}

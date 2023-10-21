@@ -8,14 +8,12 @@ async function getLinks() {
   const response = await fetch(membersURL);
   const data = await response.json();
   const filteredData = [];
-  console.log(data.members[3].membership_level);
   data.members.forEach((member) => {
     if (
       member.membership_level == "Silver" ||
       member.membership_level == "Gold"
     ) {
       filteredData.push(member);
-      console.log(member);
     }
     while (filteredData.length > 3) {
       const randomIndex = Math.floor(Math.random() * filteredData.length);
@@ -29,9 +27,11 @@ function displayLinks(members) {
   members.forEach((member) => {
     let section = document.createElement("section");
     section.setAttribute("class", "member-card");
+
     let divCompany = document.createElement("div");
     divCompany.setAttribute("class", "company-name");
     divCompany.innerHTML = member.company_name;
+
     let divContact = document.createElement("div");
     divContact.setAttribute("class", "contact-info");
     divContact.innerHTML =
@@ -46,6 +46,7 @@ function displayLinks(members) {
       "'>" +
       member.website +
       "</a>";
+
     let divSlogan = document.createElement("div");
     divSlogan.setAttribute("class", "slogan");
     divSlogan.innerHTML = member.slogan;
